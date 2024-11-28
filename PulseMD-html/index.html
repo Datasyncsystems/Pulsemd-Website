@@ -1,0 +1,700 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <title>DataSync | Healthcare Web Portal</title>
+  </head>
+  <body>
+    <header class="header-wrap clearfix">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="container">
+                <a class="navbar-brand" href="#"><img src="https://placehold.co/140x40" alt="Logo"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarColor01">
+                  <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="products.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Products
+                          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li><a class="dropdown-item" href="#">Product 1</a></li>
+                          <li><a class="dropdown-item" href="#">Product 2</a></li>
+                          <li><a class="dropdown-item" href="#">Product 3</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="partners.html">Partners</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pricing.html">Pricing</a>
+                      </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                      </li>
+                  </ul>
+                  <form class="d-flex">
+                    <button class="btn outline-green btn-outline-dark me-2" type="submit">Login</button>
+                    <button class="btn btn-green btn-dark" type="submit">Book A Demo</button>
+                  </form>
+                </div>
+              </div>
+          </nav>
+    </header>
+    <section class="spacer">
+        <div class="spacer-nav"></div>
+    </section>
+    <section class="hc-banner clearfix">
+        <div id="carouselExampleDark" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="images/banner-1.png" class="d-block w-100" alt="banner1">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Empowering Healthcare with Seamless Management</h5>
+                  <p>Simplify operations, enhance patient care, and optimise hospital workflows with our all-in-one Hospital Management System.</p>
+                  <button class="btn btn-green btn-dark mb-4" type="button">Book A Demo</button>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="images/banner-2.png" class="d-block w-100" alt="banner2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Empowering Healthcare with Seamless Management</h5>
+                    <p>Simplify operations, enhance patient care, and optimise hospital workflows with our all-in-one Hospital Management System.</p>
+                  <button class="btn btn-green btn-dark mb-4" type="button">Book A Demo</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://placehold.co/1200x600" class="d-block w-100" alt="banner3">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Third slide label</h5>
+                  <p>Simplify operations, enhance patient care, and optimise hospital workflows with our all-in-one Hospital Management System.</p>
+                  <button class="btn btn-green btn-dark mb-4" type="button">Book A Demo</button>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://placehold.co/1200x600" class="d-block w-100" alt="banner4">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Fourth slide label</h5>
+                  <p>Simplify operations, enhance patient care, and optimise hospital workflows with our all-in-one Hospital Management System.</p>
+                  <button class="btn btn-green btn-dark mb-4" type="button">Book A Demo</button>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    </section>
+    
+    <section class="hc-products clearfix">
+        <div class="container">
+            <h3 class="hc-title">Integrated Hospital Management Suite </h3>
+            <p class="hc-desc">Welcome to our Hospital Management System (HMS), a comprehensive solution designed to streamline and enhance the operational efficiency of healthcare facilities. Our HMS integrates various administrative, financial, and clinical functions into a single platform, allowing hospitals and clinics to manage patient records, appointments, billing, and reporting with ease.</p>
+            <div class="row">
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-Inpatient.svg" class="img-fluid" alt="product-1" />
+                        </div>
+                        <div class="prod-title">
+                            Inpatient Management
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-Outpatient.svg" class="img-fluid" alt="product-2" />
+                        </div>
+                        <div class="prod-title">
+                            Outpatient Management
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-Laboratory.svg" class="img-fluid" alt="product-3" />
+                        </div>
+                        <div class="prod-title">
+                            Laboratory Management
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-Pharmacy.svg" class="img-fluid" alt="product-4" />
+                        </div>
+                        <div class="prod-title">
+                            Pharmacy Management
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-Radiology.svg" class="img-fluid" alt="product-5" />
+                        </div>
+                        <div class="prod-title">
+                            Radiology Management
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-inventory.svg" class="img-fluid" alt="product-6" />
+                        </div>
+                        <div class="prod-title">
+                            Inventory Management
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-HRM.svg" class="img-fluid" alt="product-7" />
+                        </div>
+                        <div class="prod-title">
+                           HRMS
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-CRM.svg" class="img-fluid" alt="product-8" />
+                        </div>
+                        <div class="prod-title">
+                            CRM
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4 hc-item">
+                    <a href="#" class="d-flex">
+                        <div class="prod-icon">
+                            <img src="images/Prod-accounts.svg" class="img-fluid" alt="product-9" />
+                        </div>
+                        <div class="prod-title">
+                            Accounts & Finances
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hc-features clearfix">
+        <div class="container">
+            <h3 class="text-center mb-4">Key Highlights</h3>
+            <p class="text-center mb-5">With a focus on security, scalability, and user experience, our Hospital Management System is tailored to meet the unique needs of each facility, ensuring seamless integration and support. Join us in revolutionizing healthcare management and delivering quality care to communities.</p>
+            <div class="row mb-4 align-items-center">
+                <div class="col-sm-6">
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Ai Chipset.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>AI Enabled Platform</h4>
+                            <p>By leveraging AI, we provide healthcare organizations with innovative solutions that streamline processes and elevate the overall healthcare experience.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Text-speech.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>Speech to Text</h4>
+                            <p>Convert spoken words into text instantly, allowing providers to document patient encounters without the need for manual typing.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Language.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>Multi-Language Support</h4>
+                            <p>Multi-Language Support enhances communication and accessibility for diverse patient populations and healthcare providers from any region in the world.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Currency.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>Multi-Currency Support</h4>
+                            <p>Multi-Currency feature designed to facilitate seamless financial transactions in a global healthcare environment.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 key-img">
+                    <img src="images/keyheighlight1.jpg" alt="keyhighlight1" class="img-fluid ms-auto"/>
+                </div>
+            </div>
+            <div class="row align-items-center">
+                <div class="col-sm-6 key-img">
+                    <img src="images/keyheighlight2.jpg" alt="keyhighlight2" class="img-fluid me-auto"/>
+                </div>
+                <div class="col-sm-6">
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-inbuilt-video.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>Inbuilt Video Calling</h4>
+                            <p>Our inbuilt video calling feature provide high-definition video quality for clear, reliable communication during virtual consultations.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Saas.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>SaaS/Cloud Based Platform</h4>
+                            <p>Easily scale the system to accommodate the needs of small clinics to large hospitals, adapting to growing demands without significant infrastructure changes.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Teams.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>Team’s Chat</h4>
+                            <p>Our inbuilt team’s chat feature provides instant messaging capabilities for team members to communicate quickly and efficiently, fostering seamless collaboration.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex key-txt align-items-center mb-4">
+                        <div class="key-icon">
+                            <img src="images/Feat-Realtime.svg" class="img-fluid" alt="AI"/>
+                        </div>
+                        <div class="key-info">
+                            <h4>Realtime Insights & Dashboard</h4>
+                            <p>Access up-to-the-minute information on patient admissions, discharges, bed availability, and other key metrics, ensuring that decision-makers are always informed.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hc-dashboard clearfix">
+        <div class="container">
+            <h3 class="text-center">Experience Our Powerful Dashboards</h3>
+            <p class="text-center mb-5"> Our Hospital Management System (HMS) features a powerful Real-Time Insights and Dashboard module designed to provide healthcare administrators and providers with immediate access to critical data and performance metrics. This functionality enhances decision-making, operational efficiency, and patient care by presenting actionable insights at a glance. </p> 
+            <div class="row mb-5">
+                <div class="col-sm-6 hc-image">
+                    <img src="images/dashboard-1.png" alt="desktop" class="img-fluid"/>
+                </div>
+                <div class="col-sm-6 hc-content">
+                    <h4>Comprehensive Desktop Dashboard</h4>
+                    <ul class="list-unstyled">
+                        <li>Real-Time Data Monitoring</li>
+                        <li>Advanced analytics and reporting</li>
+                        <li>Visual Analytics</li>
+                        <li>Alerts and Notification</li>
+                        <li>Customizable widgets and layouts</li>
+                    </ul>
+                    <button class="btn outline-green btn-outline-dark" type="button">Discover More <span class="fa fa-arrow-right"></span></button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 hc-content">
+                    <h4>On-the-Go Mobile Solution</h4>
+                    <ul class="list-unstyled">
+                        <li>Appointment Scheduling</li>
+                        <li>Medical Records Access</li>
+                        <li>Real-time data access</li>
+                        <li>User Friendly Interface</li>
+                        <li>Secure Communication</li>
+                    </ul>
+                    <button class="btn outline-green btn-outline-dark" type="button">Explore Features <span class="fa fa-arrow-right"></span></button>
+                </div>
+                <div class="col-sm-6 hc-image">
+                    <img src="images/Mobile-Dashboard.svg" alt="mobil" class="img-fluid ms-auto" />
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hc-presentation clearfix">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="presentation-content">
+                        <h3>It’s about more than just numbers</h3>
+                        <p class="text-center">
+                            We came such a long way and so much has happened in the past years. We built things, met so many people, created lifelong friendships, learned so much and grew as a whole. looking back, it was a bumpy ride.
+Sometimes the days and months seemed endless and hopeless too. but the beautiful destination is worth the struggle of the journey! And what a journey it turned out to be.
+It’s not the numbers but the smiles of our customers that matters when they see our solutions solving their problems.
+                        </p>
+                       
+                        <div class="hc-numbers d-flex">
+                            <div class="num-wrap">
+                                <div class="num-icon">
+                                    <img src="images/Our-Story-1.svg" alt="dr-male" class="img-fluid" />
+                                </div>
+                                <div class="num-txt">
+                                    15K+
+                                </div>
+                                <div class="num-label">Physicians</div>
+                            </div>
+                            <div class="num-wrap">
+                                <div class="num-icon">
+                                    <img src="images/Our-Story-2.svg" alt="dr-male" class="img-fluid" />
+                                </div>
+                                <div class="num-txt">
+                                    36K+
+                                </div>
+                                <div class="num-label">Healthcare Professionals</div>
+                            </div>
+                            <div class="num-wrap">
+                                <div class="num-icon">
+                                    <img src="images/Our-Story-3.svg" alt="dr-male" class="img-fluid" />
+                                </div>
+                                <div class="num-txt">
+                                    4K+
+                                </div>
+                                <div class="num-label">Healthcare Organizations</div>
+                            </div>
+                            <div class="num-wrap">
+                                <div class="num-icon">
+                                    <img src="images/Our-Story-4.svg" alt="dr-male" class="img-fluid" />
+                                </div>
+                                <div class="num-txt">
+                                    60M+
+                                </div>
+                                <div class="num-label">Patients Records</div>
+                            </div>
+                        </div>
+                        <button class="btn btn-outline-light" type="button">Discover More <span class="fa fa-arrow-right"></span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hc-testimonials clearfix">
+        <h3 class="text-center">What People Say About Us</h3>
+        <div class="container">
+            <div class="testimonial-slider">
+                <div class="d-flex align-items-center flex-column">
+                    <div class="dr-img"><img src="images/dr-david.png" alt="doctor" class="img-fluid" /></div>
+                    <div class="dr-bio">"In an emergency situation, I was amazed by how quickly they accommodated me. The dentist's skill and compassion were evident. I'm grateful for their prompt care."</div>
+                    <div class="dr-name">David Gahan</div>
+                    <div class="dr-location">Detroit, Michigan</div>
+                </div>
+                <div class="d-flex align-items-center flex-column">
+                    <div class="dr-img"><img src="images/dr-david.png" alt="doctor" class="img-fluid" /></div>
+                    <div class="dr-bio">"In an emergency situation, I was amazed by how quickly they accommodated me. The dentist's skill and compassion were evident. I'm grateful for their prompt care."</div>
+                    <div class="dr-name">David Gahan</div>
+                    <div class="dr-location">Detroit, Michigan</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hc-contacts clearfix">
+        <h3 class="text-center mb-4">We Are Just A Conversation Away!!</h3>
+        <p class="text-center mb-5">Our team of experts are available 24X7 to personalize your demo experience.</p>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="inquiry-form">
+                        <h4>Schedule your personalized demo with us!</h4>
+                        <form action="https://formsubmit.co/e5c28d440f1d16a8f6c43f044da510aa" method="POST">
+                            <div class="mb-3">
+                                <label for="hospitalName" class="form-label">Hospital Name</label>
+                                <input type="text" class="form-control" id="hospitalName" name="HospitalName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="Name" class="form-label">Your Name</label>
+                                <input type="text" class="form-control" id="Name" name="Name" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email Address</label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" name="Email" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="phone" class="form-label">Phone Number</label>
+                                <input type="tel" class="form-control" id="phone" name="phone" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleFormControlTextarea1" class="form-label">Tell us about your needs</label>
+                                <textarea class="form-control" id="exampleFormControlTextarea1" name="Text-Area" rows="3" required></textarea>
+                            </div>
+                            <div class="d-grid">
+                                <button type="submit" class="btn btn-green btn-dark">Submit</button>
+                            </div>
+                          </form>
+                    </div>
+                </div>
+                <div class="col-sm-6 info-img">
+                    <img src="images/Inquiry-img.png" alt="inquiry" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="hc-complience clearfix">
+        <div class="container">
+            <div class="complience-slider">
+                <div><img src="images/Hipaa.svg" class="img-fluid" alt="hippa"/></div>
+                <div><img src="images/FHIR.svg" class="img-fluid" alt="hl7"/></div>
+                <div><img src="images/GDPR.svg" class="img-fluid" alt="gdpr"/></div>
+                <div><img src="images/dicom.svg" class="img-fluid" alt="dicom"/></div>
+                <div><img src="images/Hipaa.svg" class="img-fluid" alt="hippa"/></div>
+                <div><img src="images/FHIR.svg" class="img-fluid" alt="hl7"/></div>
+                <div><img src="images/GDPR.svg" class="img-fluid" alt="gdpr"/></div>
+                <div><img src="images/dicom.svg" class="img-fluid" alt="dicom"/></div>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="hc-clients clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col"><img src="images/amul.png" alt="amul" class="img-fluid"></div>
+                <div class="col"><img src="images/lupin.png" alt="lupin" class="img-fluid"></div>
+                <div class="col"><img src="images/intas.png" alt="intas" class="img-fluid"></div>
+                <div class="col"><img src="images/cairn.png" alt="cairn" class="img-fluid"></div>
+                <div class="col"><img src="images/aerolam.png" alt="aerolam" class="img-fluid"></div>
+                <div class="col"><img src="images/Rajyash.png" alt="Rajyash" class="img-fluid"></div>
+            </div>
+        </div>
+    </section> -->
+    <section class="hc-partners clearfix">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="partner-slider">
+                    <img src="images/AWS.svg" alt="aws" class="img-fluid"/>
+                    <img src="images/Microsoft Corporation.svg" alt="microsoft" class="img-fluid"/>
+                    <img src="images/mongo-db.svg" alt="mongodb" class="img-fluid"/>
+                    <img src="images/IBM.svg" alt="ibm" class="img-fluid"/>
+                    <img src="images/Oracle Corporation.svg" alt="oracle" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="clearfix">
+        <div class="container">
+            <div class="row footer-top">
+                <div class="col-sm-4">
+                    <a class="footer-logo" href="#">
+                        <img src="https://placehold.co/230x60" alt="FooterLogo">
+                    </a>
+                    <p class="footer-quote">The leading digital healthcare service provider based out in Gujarat, India.</p>
+                </div>
+                <div class="col-sm-2">
+                    <h4>Quick Links</h4>
+                    <ul class="list-unstyled footer-nav">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="pricing.html">Pricing</a></li>
+                        <li><a href="partners.html">Partners</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Products</h4>
+                    <ul class="list-unstyled footer-nav">
+                        <li><a href="#">Patient Management</a></li>
+                        <li><a href="#">Inventory Management</a></li>
+                        <li><a href="#">Billing System</a></li>
+                        <li><a href="#">Appointment Scheduling</a></li>
+                        <li><a href="#">Mobile Health App</a></li>
+                        <li><a href="#">EHR System</a></li>
+                    </ul>
+                </div>
+                <div class="col-sm-3">
+                    <h4>Address</h4>
+                    <ul class="list-unstyled address-txt">
+                        <li>
+                            <span><span class="fa fa-map-marker-alt"></span></span>
+                            <span>K10, B, Wing, Sarabhai Compound, B 211, Atlantis Ln, Subhanpura, Vadodara, Gujarat 390023</span>
+                        </li>
+                        <li>
+                            <span><span class="fa fa-phone"></span></span>
+                            <span><a href="tel:+919913466615">099134 66615</a></span>
+                        </li>
+                        <li>
+                            <span><span class="fa fa-envelope"></span></span>
+                            <span><a href="mailto:contact@datasyncsystems.in">contact@datasyncsystems.in</a></span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-12">
+                    <span class="devider"></span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="d-flex footer-bottom">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"><a href="#">Terms & Conditions</a></li>
+                            <li class="list-inline-item"><a href="#">Privacy Policy</a></li>
+                        </ul>
+                        <div class="copy-txt">ACME &copy; All Rights Reserved.</div>
+                        <ul class="list-inline social-links">
+                            <li class="list-inline-item"><a href="#"><img src="images/youtube-icon.png" alt="youtube" class="img-fluid"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/fb-icon.png" alt="facebook" class="img-fluid"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/twitter-icon.png" alt="twitter" class="img-fluid"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/insta-icon.png" alt="Instagram" class="img-fluid"/></a></li>
+                            <li class="list-inline-item"><a href="#"><img src="images/linkedin-icon.png" alt="linkedin" class="img-fluid"/></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.complience-slider').slick({
+                prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>',
+                nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>',
+                dots: false,
+                infinite: true,
+                speed: 300,
+                slidesToShow: 4,
+                slidesToScroll: 4,
+                adaptiveHeight: true,
+                arrow: true,
+                centerMode: true,
+                centerPadding: '100px',
+                responsive: [
+                    {
+                    breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3
+                        }
+                    },
+                    {
+                    breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerMode: true,
+                            arrow: true
+                        }
+                    }
+                ]
+            });
+
+            $('.partner-slider').slick({
+                prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>',
+                nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>',
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                adaptiveHeight: true,
+                arrow: true,
+                centerMode: true,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4,
+                            slidesToScroll: 4,
+                            centerMode: false,
+                            arrow: true
+                        }
+                    },
+                    {
+                    breakpoint: 768,
+                        settings: {
+                            slidesToShow: 3,
+                            slidesToScroll: 3,
+                            centerMode: false,
+                            arrow: true
+                        }
+                    },
+                    {
+                    breakpoint: 576,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 2,
+                            centerMode: false,
+                            arrow: true
+                        }
+                    }
+                ]
+            });
+        
+            $('.testimonial-slider').slick({
+                prevArrow: '<div class="slick-prev"><i class="fa fa-chevron-left" aria-hidden="true"></i></div>',
+                nextArrow: '<div class="slick-next"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>',
+                dots: false,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                adaptiveHeight: true,
+                arrow: true,
+                centerMode: true,
+                responsive: [
+                    {
+                    breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerMode: false,
+                            arrow: true
+                        }
+                    },
+                    {
+                    breakpoint: 768,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerMode: false,
+                            arrow: true
+                        }
+                    },
+                    {
+                    breakpoint: 576,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            centerMode: false,
+                            arrow: true
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+  </body>
+</html>
